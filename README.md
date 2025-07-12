@@ -1,12 +1,50 @@
-# React + Vite
+# ✨ Animated Landing Page with React, Tailwind CSS & GSAP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Animated Landing Page** built with cutting-edge frontend technologies! This project combines the power of **React**, the utility-first styling of **Tailwind CSS**, and the magic of **GSAP** animations to create a smooth, engaging user experience.
 
-Currently, two official plugins are available:
+<br />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+> 🌐 [View Live Demo](https://your-live-site-link.com)  
+> *(Replace with your actual deployed URL)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<br />
+
+## 📸 Preview
+
+
+![Landing Page Preview](src/assets/images/preview.png)  
+*(Replace with a GIF or screenshot showcasing the animations)*
+
+<br />
+
+## 🔧 Tech Stack
+
+| Technology      | Description                                  |
+|-----------------|----------------------------------------------|
+| ⚛️ React        | Component-based UI development               |
+| 🎨 Tailwind CSS | Rapid styling with utility-first classes     |
+| ✨ GSAP         | High-performance animations and transitions  |
+
+<br />
+
+## 💡 Features
+
+- 📱 **Responsive Design** – Seamlessly adapts across screen sizes  
+- ⚡ **Smooth Animations** – Scroll and hover effects powered by GSAP  
+- 🔁 **Reusable Components** – Modular, maintainable code structure  
+- 🎯 **Performance-Optimized** – Lazy-loaded assets and optimized rendering
+
+<br />
+
+## 🧩 Project Structure
+
+```bash
+src/
+├── components/       # Reusable UI components
+├── assets/           # Images, videos, and static content
+├── hooks/            # Custom React hooks (if any)
+├── styles/           # Tailwind configuration or global styles
+├── App.jsx
+└── main.jsx
