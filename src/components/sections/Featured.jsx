@@ -1,5 +1,5 @@
 import React, {useRef} from 'react'
-import {Button} from '../ui/Button'
+import {Button} from '../ui/button'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 

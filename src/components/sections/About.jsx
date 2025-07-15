@@ -2,7 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import SplitText from "gsap/SplitText";
 import { useRef } from "react";
-import { Button } from "../ui/Button";
+import { Button } from "../ui/button";
 import Showcase from "../common/Showcase";
 
 const About = () => {
