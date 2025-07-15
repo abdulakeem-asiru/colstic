@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
+import poster from "../../assets/images/poster.png"
 
 const Showcase = () => {
   const ringRef = useRef(null);
@@ -19,7 +20,7 @@ const Showcase = () => {
       {/* Poster section */}
       <div className="relative w-full h-[600px] rounded-2xl overflow-hidden bg-black">
         <img
-          src="src/assets/images/poster.png"
+          src={poster}
           alt="Poster collage"
           className="w-full h-full object-cover rounded-4xl"
         />

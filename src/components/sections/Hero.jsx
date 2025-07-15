@@ -3,7 +3,9 @@ import { Header } from './Header'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import SplitText from 'gsap/SplitText'
-
+import heroVideo from "../../assets/video/hero-video.mp4"
+import spring from "../../assets/images/spring.png"
+import heroImage from "../../assets/images/hero-img.jpg"
 
 const Hero = () => {
   const videoRef = useRef(null);
@@ -88,7 +90,7 @@ const Hero = () => {
         >
           <video
             ref={videoRef}
-            src="src/assets/video/hero-video.mp4"
+            src={heroVideo}
             className="object-cover w-full h-full"
             muted
             autoPlay
@@ -96,11 +98,11 @@ const Hero = () => {
             loop
             playsInline
           />
-        </div> <br />IDEAS INTO  <img src="src/assets/images/hero-img.jpg" alt="Hero img" className='inline-block w-16 h-16 rounded-full ring-6 ring-white hero-img my-auto align-middle' />&nbsp; THOUGHTS<br /> AND DIGITAL OUTCOMES</h1>
+        </div> <br />IDEAS INTO  <img src={heroImage} alt="Hero img" className='inline-block w-16 h-16 rounded-full ring-6 ring-white hero-img my-auto align-middle' />&nbsp; THOUGHTS<br /> AND DIGITAL OUTCOMES</h1>
         </div>
         <div className='mt-30 mb-15 flex justify-between items-center gap-4 animated-div'>
           <p className='max-w-[500px] paragraph text-xl font-medium leading-[150%]'>Provide the best service and without revision, we are ready to help your business grow more attractive and beauty visuals</p>
-        <img src="src/assets/images/spring.png" alt="spring" className='w-10 h-5' />
+        <img src={spring} alt="spring" className='w-10 h-5' />
         </div>
       </section>
 

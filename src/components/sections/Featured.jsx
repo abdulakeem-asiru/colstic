@@ -2,6 +2,13 @@ import React, {useRef} from 'react'
 import {Button} from '../ui/button'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
+import image1 from "../../assets/images/featured/image.png"
+import image2 from "../../assets/images/featured/image-1.png"
+import image3 from "../../assets/images/featured/image-2.png"
+import image4 from "../../assets/images/featured/image-3.png"
+import image5 from "../../assets/images/featured/image-4.png"
+import image6 from "../../assets/images/featured/image-5.png"
+import brick from "../../assets/images/brick-white.png"
 
 const Featured = () => {
 const containerRef = useRef(null);
@@ -36,32 +43,32 @@ const containerRef = useRef(null);
 
       const featured = [
   {
-    imagePath: 'src/assets/images/featured/image.png',
+    imagePath: image1,
     caption:
       'Hitachi Digital Brand Ecosystem.',
   },
   {
-    imagePath: 'src/assets/images/featured/image-1.png',
+    imagePath: image2,
     caption:
       'Stråbe',
   },
   {
-    imagePath: 'src/assets/images/featured/image-2.png',
+    imagePath: image3,
     caption:
       'Commons.',
   },
   {
-    imagePath: 'src/assets/images/featured/image-3.png',
+    imagePath: image4,
     caption:
       'Aeizei',
   },
   {
-    imagePath: 'src/assets/images/featured/image-4.png',
+    imagePath: image5,
     caption:
       'Zvurçyk Fashion',
   },
   {
-    imagePath: 'src/assets/images/featured/image-5.png',
+    imagePath: image6,
     caption:
       'Lancome',
   },
@@ -78,7 +85,7 @@ const containerRef = useRef(null);
 
             <Button className="hover:bg-[var(--primary-color)] cursor-pointer p-6 rounded-4xl text-[16px] text-black mt-8 font-medium bg-[var(--primary-color)]">See detail — our works</Button>
             </div>
-            <img src='src/assets/images/brick-white.png' alt='services' className='w-[450px] h-auto mt-5 featured-image'/>
+            <img src={brick} alt='services' className='w-[450px] h-auto mt-5 featured-image'/>
         </div>
         <div ref={containerRef} className='max-w-[600px] grid grid-cols-2 gap-6'>
             {featured.map((featured, index) => (

@@ -1,6 +1,8 @@
 import { useGSAP } from '@gsap/react';
 import React, { useRef } from 'react'
 import gsap from 'gsap';    
+import brick from "../../assets/images/brick.png"
+
 
 const Services = () => {
   const containerRef = useRef(null);
@@ -65,7 +67,7 @@ gsap.to(('.service-item'), {
      <div className='container mx-auto px-6 py-12 flex justify-between items-start'>
         <div className='flex flex-col items-center justify-center gap-6'>
             <h2 className='text-5xl text-[#101010] font-semibold leading-[120%] tracking-[-1px] max-w-[500px]'>Our services from Colstic©</h2>
-            <img src='src/assets/images/brick.png' alt='services' className='w-[250px] h-auto '/>
+            <img src={brick} alt='services' className='w-[250px] h-auto '/>
         </div>
         <div className='max-w-[600px]' ref={containerRef}>
             {services.map((service, index) => (
