@@ -1,5 +1,5 @@
 import {Button} from "../ui/button"
-import {SideNav} from "../common/sideNav"
+import {SideNav} from "../common/SideNav"
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 
