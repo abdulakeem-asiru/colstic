@@ -4,7 +4,7 @@ import gsap from 'gsap'
 import SplitText from 'gsap/SplitText';
 import image1 from "../../assets/images/blog/image1.png";
 import image2 from "../../assets/images/blog/image2.png";
-import image3 from "../../assets/images/blog/image3.png";
+import image3 from "../../assets/images/blog/image1.png";
 import {Button} from "../ui/button"
 
 const Blog = () => {
