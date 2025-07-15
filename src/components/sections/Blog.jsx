@@ -4,7 +4,7 @@ import gsap from 'gsap'
 import SplitText from 'gsap/SplitText';
 import image1 from "../../assets/images/blog/image1.png";
 import image2 from "@/assets/images/blog/image2.png";
-import image3 from "@/assets/images/blog/image3.png";
+
 import {Button} from "../ui/button"
 
 const Blog = () => {
@@ -18,7 +18,7 @@ const Blog = () => {
     title : "Direct-to-consumer-to-retail: Planning for the Omnichannel Future"
 },
 {
-      image : image3,
+      image : image1,
     title : "The future is Filtered: Key Considerations for your product"
 }
 ]
