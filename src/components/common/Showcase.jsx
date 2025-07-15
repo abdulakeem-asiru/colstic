@@ -29,7 +29,7 @@ const Showcase = () => {
           onClick={() => setIsOpen(true)}
           className="absolute inset-0 flex items-center justify-center z-10"
         >
-          <div className="relative w-40 h-40">
+          <div className="relative w-50 h-50">
             {/* Rotating ring */}
             <div
               ref={ringRef}
@@ -52,7 +52,7 @@ const Showcase = () => {
 
             {/* Center triangle */}
             <div className="absolute inset-0 flex items-center justify-center bg-black rounded-full">
-              <svg viewBox="0 0 100 100" className="w-10 h-10 fill-[#ADFF2F]">
+              <svg viewBox="0 0 100 100" className="w-20 h-20 fill-[#ADFF2F]">
                 <polygon points="40,30 70,50 40,70" />
               </svg>
             </div>

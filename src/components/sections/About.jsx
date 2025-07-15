@@ -1,13 +1,9 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import SplitText from "gsap/SplitText";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef } from "react";
 import { Button } from "../ui/Button";
 import Showcase from "../common/Showcase";
-
-// Register GSAP plugins
-gsap.registerPlugin(SplitText, ScrollTrigger);
 
 const About = () => {
   // Single ref to store all paragraph elements
@@ -23,7 +19,6 @@ const About = () => {
 
   useGSAP(
     () => {
-      // Iterate over all paragraphs in paragraphRef
       paragraphRef.current.forEach((paragraph, index) => {
         if (paragraph) {
           const split = new SplitText(paragraph, { type: "lines" });
