@@ -98,7 +98,7 @@ const Hero = () => {
             loop
             playsInline
           />
-        </div> <br />IDEAS INTO  <img src={heroImage} alt="Hero img" className='md:inline-block md:w-16 md:h-16 hidden rounded-full ring-6 ring-white hero-img my-auto align-middle' />&nbsp; THOUGHTS<br className='max-md:hidden'/> AND DIGITAL OUTCOMES</h1>
+        </div> <br />IDEAS INTO  <img src={heroImage} alt="Hero img" className='md:inline-block md:w-16 md:h-16 hidden rounded-full ring-6 ring-white hero-img my-auto align-middle' /> THOUGHTS<br className='max-md:hidden'/> AND DIGITAL OUTCOMES</h1>
         </div>
         <div className='md:mt-30 my-10 md:mb-15 flex justify-between items-center gap-4 animated-div'>
             <p className='max-w-[500px] paragraph text-sm md:text-xl font-medium leading-[150%]'>Provide the best service and without revision, we are ready to help your business grow more attractive and beauty visuals</p>
