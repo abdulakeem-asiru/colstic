@@ -61,7 +61,7 @@ const Cta = () => {
 </svg>
     </div> */}
 
-    <div className='right-vector'>
+    {/* <div className='right-vector'>
        <svg width="215" height="311" viewBox="0 0 215 311" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M110 131C133.869 131 156.761 140.482 173.64 157.36C190.518 174.239 200 197.131 200 221C200 244.869 190.518 267.761 173.64 284.64C156.761 301.518 133.869 311 110 311L110 221V131Z" fill="#5A6DED"/>
 <path d="M155 90C155 40.2944 195.294 0 245 0H335V90C335 139.706 294.706 180 245 180C195.294 180 155 139.706 155 90Z" fill="#B277CF"/>
@@ -75,7 +75,7 @@ const Cta = () => {
 </defs>
 </svg>
 
-    </div>
+    </div> */}
      <div className='container mx-auto px-6 py-12 flex flex-col justify-between items-center gap-15' >
         <Button className='rounded-2xl'>CONTACT ME</Button>
         <h2 className='md:text-5xl text-3xl font-medium leading-[120%] max-w-[600px] text-center'  ref={setParagraphRef}>Let’s start building your branding, <span className='text-[var(--primary-color)]'>today.</span></h2>
