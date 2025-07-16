@@ -77,8 +77,8 @@ const containerRef = useRef(null);
 
   return (
    <section className='w-full flex items-center justify-around border-y-1 border-gray-600 text-white my-15'>
-     <div className='container mx-auto px-6 py-12 flex max-md:flex-col max-md:gap-20 justify-between items-start '>
-        <div className='flex flex-col items-center justify-center gap-20'>
+     <div className='container mx-auto px-6 py-12 flex max-lg:flex-col max-lg:gap-20 justify-between items-start '>
+        <div className='flex flex-col items-center justify-center gap-20' >
             <div>
             <h2 className='md:text-5xl text-3xl font-semibold leading-[120%] tracking-[-1px] max-w-[500px]'>Featured works from Colstic©</h2>
             <p className='mt-2'>All featured works from Colstic and you can see more the projects</p>

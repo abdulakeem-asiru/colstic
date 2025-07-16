@@ -58,7 +58,7 @@ const testimonials = [
   return (
     <div className="relative w-full md:container mx-auto px-2 md:px-10 md:py-12 text-white rounded-xl">
   {/* Header Text — stays static */}
-  <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+  <div className="flex flex-col lg:flex-row items-center justify-between gap-20">
     {/* Left: Static Images */}
     <div className="flex gap-4 md:w-[700px] w-full justify-center">
       {testimonials[currentIndex].images.map((image, j) => (
@@ -72,7 +72,7 @@ const testimonials = [
     </div>
 
     {/* Right: Title + Quote + Controls */}
-    <div className="md:w-[600px] w-full space-y-4 md:space-y-10 flex flex-col items-start " >
+    <div className="md:w-[600px] w-full space-y-4 md:space-y-10 flex flex-col items-start" >
       <h2 className="text-md:3xl text-2xl font-semibold">Best Partnership</h2>
 
       {/* Slider Text Content */}
