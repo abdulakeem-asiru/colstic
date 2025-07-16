@@ -40,7 +40,7 @@ export const Header = () => {
   return (
     <header className="py-4 header z-50 bg-transparent ">
         <nav className="flex items-center justify-between px-6 container mx-auto">
-        <a href="/"><img src="/logo.png" alt="Logo" className="w-[123px] h-[53px]"/></a>
+        <a href="/"><img src="/logo.svg" alt="Logo" className="w-[123px] h-[53px]"/></a>
         <div className="flex items-center gap-4">
             <Button className="p-5 rounded-4xl text-[16px] font-medium border-2 border-white">Let's talk</Button>
             <SideNav Hamburger={<Button className="bg-transparent flex-col flex hamburger-button items-center justify-center gap-2 p-0">
