@@ -101,7 +101,7 @@ const Hero = () => {
         </div> <br />IDEAS INTO  <img src={heroImage} alt="Hero img" className='md:inline-block md:w-16 md:h-16 hidden rounded-full ring-6 ring-white hero-img my-auto align-middle' />&nbsp; THOUGHTS<br /> AND DIGITAL OUTCOMES</h1>
         </div>
         <div className='md:mt-30 my-10 md:mb-15 flex justify-between items-center gap-4 animated-div'>
-          <p className='md:max-w-[500px] w-full paragraph text-sm md:text-xl font-medium leading-[150%]'>Provide the best service and without revision, we are ready to help your business grow more attractive and beauty visuals</p>
+            <p className='max-w-[500px] paragraph text-sm md:text-xl font-medium leading-[150%]'>Provide the best service and without revision, we are ready to help your business grow more attractive and beauty visuals</p>
         <img src={spring} alt="spring" className='w-10 h-5' />
         </div>
       </section>

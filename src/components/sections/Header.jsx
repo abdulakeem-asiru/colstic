@@ -42,7 +42,7 @@ export const Header = () => {
         <nav className="flex items-center justify-between px-6 container mx-auto">
         <a href="/"><img src="/logo.svg" alt="Logo" className="w-[123px] h-[53px]"/></a>
         <div className="flex items-center gap-4">
-            <Button className="p-5 rounded-4xl text-[16px] font-medium border-2 border-white">Let's talk</Button>
+            <Button className="p-5 rounded-4xl text-[16px] font-medium border-2 border-white max-sm:hidden">Let's talk</Button>
             <SideNav Hamburger={<Button className="bg-transparent flex-col flex hamburger-button items-center justify-center gap-2 p-0">
               <span className="w-15 h-[6px] bg-white rounded-4xl"></span>
               <span className="w-15 h-[6px] bg-white rounded-4xl"></span>
