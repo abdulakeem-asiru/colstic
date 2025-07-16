@@ -78,7 +78,7 @@ const Hero = () => {
     <div className='relative'>
      <div className="absolute inset-0 bg-[url('/row.png')] bg-contain bg-center opacity-10 z-0"></div>
       <Header />
-      <section className="hero-section mt-10 container mx-auto px-6 py-12">
+      <section className="hero-section mt-10 container mx-auto md:px-6 md:py-12 py-8 px-4">
         <div>
          <p className='md:text-xl text-sm italic font-normal sub-heading'>WELCOME TO COLSTIC© — WE ARE BRANDING AGENCY FROM LONDON</p>
          <h1 className='w-full hero-heading text-3xl md:text-[90px] font-semibold md:leading-[100%] leading-[120%] md:tracking-[-2px] mt-8  '>WE TRANSFROM &nbsp; 
