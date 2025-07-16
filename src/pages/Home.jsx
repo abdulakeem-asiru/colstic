@@ -5,6 +5,8 @@ import Services from '../components/sections/Services'
 import Featured from '../components/sections/Featured'
 import Testimonial from '../components/sections/Testimonial'
 import Blog from '../components/sections/Blog'
+import Cta from '../components/sections/Cta'
+import Footer from '../components/sections/Footer'
 
 const Home = () => {
   return (
@@ -15,7 +17,8 @@ const Home = () => {
       <Featured />
       <Testimonial />
       <Blog />
-      <div className='h-[300px]'></div>
+      <Cta />
+      <Footer />
     </div>
   )
 }
