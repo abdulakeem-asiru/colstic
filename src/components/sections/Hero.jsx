@@ -5,7 +5,7 @@ import gsap from 'gsap'
 import SplitText from 'gsap/SplitText'
 import heroVideo from "../../assets/video/hero-video.mp4"
 import spring from "../../assets/images/spring.png"
-import heroImage from "../../assets/images/hero-img.jpg"
+import heroImage from "../../assets/images/hero-img.png"
 
 const Hero = () => {
   const videoRef = useRef(null);
