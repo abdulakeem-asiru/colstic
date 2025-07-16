@@ -81,7 +81,7 @@ const Hero = () => {
       <section className="hero-section mt-10 container mx-auto px-6 py-12">
         <div>
          <p className='md:text-xl text-sm italic font-normal sub-heading'>WELCOME TO COLSTIC© — WE ARE BRANDING AGENCY FROM LONDON</p>
-         <h1 className='w-full hero-heading text-3xl md:text-[90px] font-semibold md:leading-[100%] leading-[120%] tracking-[-2px] mt-8  '>WE TRANSFROM &nbsp; 
+         <h1 className='w-full hero-heading text-3xl md:text-[90px] font-semibold md:leading-[100%] leading-[120%] md:tracking-[-2px] mt-8  '>WE TRANSFROM &nbsp; 
           
           <div
           className="md:w-[350px] md:h-[70px] w-20 h-8 ml-2 rounded-full overflow-hidden inline-block md:align-middle ring-4 ring-white"
