@@ -80,7 +80,7 @@ const Hero = () => {
       <Header />
       <section className="hero-section mt-10 container mx-auto md:px-6 md:py-12 py-8 px-4">
         <div>
-         <p className='md:text-xl text-sm italic font-normal sub-heading'>WELCOME TO COLSTIC© — WE ARE BRANDING AGENCY FROM LONDON</p>
+         <p className='md:text-xl text-sm  font-normal sub-heading'>WELCOME TO COLSTIC© — WE ARE BRANDING AGENCY FROM LONDON</p>
          <h1 className='w-full hero-heading text-3xl md:text-[90px] font-semibold md:leading-[100%] leading-[120%] md:tracking-[-2px] mt-8  '>WE TRANSFROM &nbsp; 
           
           <div
@@ -98,7 +98,7 @@ const Hero = () => {
             loop
             playsInline
           />
-        </div> <br />IDEAS INTO  <img src={heroImage} alt="Hero img" className='md:inline-block md:w-16 md:h-16 hidden rounded-full ring-6 ring-white hero-img my-auto align-middle' />&nbsp; THOUGHTS<br /> AND DIGITAL OUTCOMES</h1>
+        </div> <br />IDEAS INTO  <img src={heroImage} alt="Hero img" className='md:inline-block md:w-16 md:h-16 hidden rounded-full ring-6 ring-white hero-img my-auto align-middle' />&nbsp; THOUGHTS<br className='max-md:hidden'/> AND DIGITAL OUTCOMES</h1>
         </div>
         <div className='md:mt-30 my-10 md:mb-15 flex justify-between items-center gap-4 animated-div'>
             <p className='max-w-[500px] paragraph text-sm md:text-xl font-medium leading-[150%]'>Provide the best service and without revision, we are ready to help your business grow more attractive and beauty visuals</p>
