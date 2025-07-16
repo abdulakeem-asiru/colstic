@@ -78,8 +78,8 @@ const Cta = () => {
     </div>
      <div className='container mx-auto px-6 py-12 flex flex-col justify-between items-center gap-15' >
         <Button className='rounded-2xl'>CONTACT ME</Button>
-        <h2 className='text-5xl font-medium leading-[120%] max-w-[600px] text-center'  ref={setParagraphRef}>Let’s start building your branding, <span className='text-[var(--primary-color)]'>today.</span></h2>
-        <div className='flex gap-4 items-center'>
+        <h2 className='md:text-5xl text-3xl font-medium leading-[120%] max-w-[600px] text-center'  ref={setParagraphRef}>Let’s start building your branding, <span className='text-[var(--primary-color)]'>today.</span></h2>
+        <div className='flex max-md:flex-col gap-4 items-center'>
             <Button className='hover:bg-[var(--primary-color)] cursor-pointer p-6 rounded-4xl text-[16px] text-black font-medium bg-[var(--primary-color)]'>Get started for free</Button>
             <Button className='hover:bg-black cursor-pointer p-6 rounded-4xl text-[16px] font-medium bg-black border-1 border-gray-500'>Contact sales</Button>
         </div>

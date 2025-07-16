@@ -64,9 +64,9 @@ gsap.to(('.service-item'), {
 
   return (
     <section className='w-full flex items-center justify-around bg-white text-black mt-4 service '>
-     <div className='container mx-auto px-6 py-12 flex justify-between items-start'>
+     <div className='container mx-auto px-6 py-12 flex max-md:flex-col  justify-between items-start'>
         <div className='flex flex-col items-center justify-center gap-6'>
-            <h2 className='text-5xl text-[#101010] font-semibold leading-[120%] tracking-[-1px] max-w-[500px]'>Our services from Colstic©</h2>
+            <h2 className='md:text-5xl text-2xl text-[#101010] font-semibold leading-[120%] tracking-[-1px] max-w-[500px]'>Our services from Colstic©</h2>
             <img src={brick} alt='services' className='w-[250px] h-auto '/>
         </div>
         <div className='max-w-[600px]' ref={containerRef}>

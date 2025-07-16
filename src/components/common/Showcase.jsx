@@ -18,7 +18,7 @@ const Showcase = () => {
   return (
     <>
       {/* Poster section */}
-      <div className="relative w-full h-[600px] rounded-2xl overflow-hidden bg-black">
+      <div className="relative w-full md:h-[600px] h-[400px] rounded-2xl overflow-hidden bg-black">
         <img
           src={poster}
           alt="Poster collage"
@@ -62,7 +62,7 @@ const Showcase = () => {
       </div>
       
         {/* Footer */}
-        <div className="text-white text-xl mt-4 flex items-center justify-between">
+        <div className="text-white text-sm md:text-xl mt-4 flex items-center gap-10 justify-between">
           <p>Showcase Work Colstics ©</p>
           <p>Showcase Project 2016-2023</p>
         </div>

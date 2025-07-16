@@ -56,7 +56,7 @@ const testimonials = [
   }, [currentIndex]);
 
   return (
-    <div className="relative w-full md:container mx-auto p-6 md:py-12 text-white rounded-xl">
+    <div className="relative w-full md:container mx-auto px-10 md:py-12 text-white rounded-xl">
   {/* Header Text — stays static */}
   <div className="flex flex-col md:flex-row items-center justify-between gap-8">
     {/* Left: Static Images */}
@@ -72,18 +72,18 @@ const testimonials = [
     </div>
 
     {/* Right: Title + Quote + Controls */}
-    <div className="w-[600px] space-y-10 flex flex-col items-start  p-6" >
-      <h2 className="text-3xl font-semibold">Best Partnership</h2>
+    <div className="md:w-[600px] w-full space-y-4 md:space-y-10 flex flex-col items-start p-6" >
+      <h2 className="text-md:3xl text-2xl font-semibold">Best Partnership</h2>
 
       {/* Slider Text Content */}
       <div
         ref={sliderRef}
         className="w-full overflow-hidden scroll-smooth"
       >
-        <div className="flex" >
+        <div className="flex " >
           {testimonials.map((item, i) => (
             <div key={i} className="min-w-full">
-              <p className="text-gray-300 w-[500px] text-md leading-[150%]">
+              <p className="text-gray-300 md:w-[500px] w-full text-md leading-[150%]">
                 “{item.quote}”
               </p>
             </div>
@@ -94,7 +94,7 @@ const testimonials = [
       </div>
 
       {/* User Info & Buttons */}
-      <div className="flex justify-between items-center md:w-[500px]">
+      <div className="flex  justify-between items-center max-md:items-start md:w-[500px] w-full max-md:flex-col">
         <div className="flex items-center gap-3">
           <img
             src={testimonials[currentIndex].avatar}
@@ -107,10 +107,10 @@ const testimonials = [
           </div>
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex justify-center gap-2 max-md:mt-6 max-md:w-full max-md:mx-auto">
           <button
             onClick={handlePrev}
-            className="text-white text-xl bg-gray-800 hover:bg-gray-700 h-10 w-18 p-3 py-1 rounded-full"
+            className="text-white text-xl bg-gray-600 hover:bg-gray-700 h-10 w-18 p-3 py-1 rounded-full"
           >
            <ArrowLeft fill="#fff" />
           </button>

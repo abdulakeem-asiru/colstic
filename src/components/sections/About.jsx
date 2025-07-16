@@ -52,16 +52,16 @@ const About = () => {
   return (
     <section
       ref={sectionRef}
-      className="mx-auto container md:px-6 md:py-12 about-section"
+      className="mx-auto container md:px-6 md:py-12 p-8 about-section"
     >
-      <h2 className="text-5xl font-semibold leading-[120%] tracking-[-1px]">
+      <h2 className="md:text-5xl text-2xl font-semibold leading-[120%] tracking-[-1px]">
         About Colstic©
       </h2>
-      <div className="flex justify-between items-start gap-6">
-        <div>
+      <div className="flex max-md:flex-col justify-between items-start gap-6">
+        <div >
           <p
             ref={setParagraphRef}
-            className="text-[18px] font-medium max-w-[400px] mt-5 about"
+            className="md:text-[18px] text-sm font-medium md:max-w-[400px] w-full mt-5 about"
           >
             AN INTERNATIONAL DIGITAL DESIGN STUDIO REIMAGINING HOW PEOPLE CONNECT
             WITH BRANDS.
@@ -70,7 +70,7 @@ const About = () => {
         <div className="flex flex-col items-start justify-center gap-6">
           <p
             ref={setParagraphRef}
-            className="text-[18px] font-normal max-w-[600px] mt-4 about"
+            className="md:text-[18px] text-sm max-md:tracking-wider font-normal max-w-[600px] mt-4 about"
           >
             We're a small team of curious humans who create work we’re proud of for
             people and brands we believe in. With collaboration at the heart of

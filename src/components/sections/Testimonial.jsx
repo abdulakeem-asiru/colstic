@@ -54,10 +54,10 @@ const Testimonial = () => {
     <section   ref={sectionRef} className="w-full flex flex-col items-center justify-around text-white bg-gradient-to-b from-[#101010] to-[#2B2B2B] mt-16 mb-0 ">
       <div className="container mx-auto px-6 py-12">
         <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-6">
-          <h2  ref={setParagraphRef}  className="text-4xl md:text-5xl font-semibold leading-[120%] tracking-[-1px] max-w-[600px]">
+          <h2  ref={setParagraphRef}  className="text-3xl md:text-5xl font-semibold leading-[120%] tracking-[-1px] max-w-[600px]">
             Words from clients & partnership testimonials.
           </h2>
-          <p  ref={setParagraphRef} className="text-lg font-normal max-w-[380px] text-[#EDEDED]">
+          <p  ref={setParagraphRef} className="text-sm md:text-lg font-normal w-full md:max-w-[380px] text-[#EDEDED]">
             A short or long additional place of description or information goes in here.
           </p>
         </div>
