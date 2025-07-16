@@ -56,7 +56,7 @@ const testimonials = [
   }, [currentIndex]);
 
   return (
-    <div className="relative w-full md:container mx-auto p-6 md:py-12 bg-[#111] text-white rounded-xl">
+    <div className="relative w-full md:container mx-auto p-6 md:py-12 text-white rounded-xl">
   {/* Header Text — stays static */}
   <div className="flex flex-col md:flex-row items-center justify-between gap-8">
     {/* Left: Static Images */}

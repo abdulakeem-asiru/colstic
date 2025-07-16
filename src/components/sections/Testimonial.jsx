@@ -51,7 +51,7 @@ const Testimonial = () => {
 
 
   return (
-    <section   ref={sectionRef} className="w-full flex flex-col items-center justify-around text-white my-16 ">
+    <section   ref={sectionRef} className="w-full flex flex-col items-center justify-around text-white bg-gradient-to-b from-[#101010] to-[#2B2B2B] mt-16 mb-0 ">
       <div className="container mx-auto px-6 py-12">
         <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-6">
           <h2  ref={setParagraphRef}  className="text-4xl md:text-5xl font-semibold leading-[120%] tracking-[-1px] max-w-[600px]">

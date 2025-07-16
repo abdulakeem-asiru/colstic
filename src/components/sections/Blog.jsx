@@ -67,7 +67,7 @@ const Blog = () => {
 
 
   return (
-    <section   ref={sectionRef} className="w-full flex flex-col items-center justify-around text-white my-16">
+    <section   ref={sectionRef} className="w-full flex flex-col bg-gradient-to-b from-[#2B2B2B] to-[#101010] items-center justify-around text-white mb-16">
       <div className="container mx-auto px-6 py-12 flex flex-col gap-10 justify-center">
         <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-6">
           <h2  ref={setParagraphRef}  className="text-4xl md:text-5xl font-semibold leading-[120%] tracking-[-1px] max-w-[600px]">
@@ -86,7 +86,7 @@ const Blog = () => {
           ))}
         </ul>
         <div className='w-[100px] mt-20 mx-auto'>
-        <Button className=" py-8 px-10 rounded-4xl text-[16px] text-black font-medium hover:bg-[var(--primary-color)] cursor-pointer bg-[var(--primary-color)]">See more stories</Button>
+        <Button className=" py-7 px-10 rounded-4xl text-[16px] text-black font-medium hover:bg-[var(--primary-color)] cursor-pointer bg-[var(--primary-color)]">See more stories</Button>
         </div>
       </div>
     </section>
