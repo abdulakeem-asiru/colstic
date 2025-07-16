@@ -34,7 +34,7 @@ gsap.to(('.service-item'), {
       position : 'sticky',
       top : 0,
       boxShadow : "box-shadow: -3px -54px 20px -18px rgba(239,239,239,0.75)",
-      padding : "20px",
+      paddingTop : "20px",
       stagger: 0.2,
       duration: 0.6,
       ease: "slow",
