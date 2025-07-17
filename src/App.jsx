@@ -18,7 +18,7 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
     <>
       <ReactLenis root />
       {!loadingDone && <Preloader onComplete={() => setLoadingDone(true)} />}
-      <Home />
+      <Home ready={loadingDone}/>
     </>
   )
 }

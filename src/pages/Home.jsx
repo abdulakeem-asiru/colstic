@@ -8,7 +8,8 @@ import Blog from '../components/sections/Blog'
 import Cta from '../components/sections/Cta'
 import Footer from '../components/sections/Footer'
 
-const Home = () => {
+const Home = ({ready}) => {
+    if(!ready) return;
   return (
     <div>
       <Hero />

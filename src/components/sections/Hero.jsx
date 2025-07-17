@@ -9,7 +9,6 @@ import heroImage from "../../assets/images/hero-img.png"
 
 const Hero = () => {
   const videoRef = useRef(null);
-  
    const handleMouseEnter = () => {
     videoRef.current?.play();
   };
@@ -41,7 +40,15 @@ const Hero = () => {
               each: 0.7,
               from: "start"
             }
-        }, "-=2");
+        }, "-=2")
+
+        tl.from('.hero-video',{
+          scale : 0.8,
+          opacity : 0,
+          duration : 1.5,
+          z : -10,
+          ease : "back.out"
+        }, )
 
         gsap.from(".hero-img", {
           scale: 0.1,
@@ -84,7 +91,7 @@ const Hero = () => {
          <h1 className='w-full hero-heading text-3xl md:text-[90px] font-semibold md:leading-[100%] leading-[120%] md:tracking-[-2px] mt-8  '>WE TRANSFROM &nbsp; 
           
           <div
-          className="md:w-[350px] md:h-[70px] w-20 h-8 ml-2 rounded-full overflow-hidden inline-block md:align-middle ring-4 ring-white"
+          className="hero-video md:w-[350px] md:h-[70px] w-20 h-8 ml-2 rounded-full overflow-hidden inline-block md:align-middle ring-4 ring-white"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={ handleMouseLeave}
         >

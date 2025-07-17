@@ -12,7 +12,7 @@ const Preloader = ({onComplete}) => {
                 clearInterval(interval);
                 gsap.to("#preloader", {
                     opacity : 0,                    
-                duration: 2,
+                duration: 1,
                 ease: "power1.inOut",
                 onComplete: onComplete,
           });
@@ -20,7 +20,7 @@ const Preloader = ({onComplete}) => {
         }
         return prev + 1;
             });
-        }, 70);
+        }, 50);
     }, [onComplete])
   return (
     <section id="preloader"
