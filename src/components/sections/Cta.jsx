@@ -68,13 +68,7 @@ const Cta = () => {
       duration: 1,
  
       })
-      .from('.right-vector', {
-        scale : 1,
-        ease : 'slow',
-        stagger: 0.2,
-      duration: 1,
-  
-      });
+
   }, []);
 
   return (

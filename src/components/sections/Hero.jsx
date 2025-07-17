@@ -75,7 +75,7 @@ const Hero = () => {
 
   })
   return (
-    <div className='relative'>
+    <div className='relative noisy'>
      <div className="absolute inset-0 bg-[url('/row.png')] bg-contain bg-center opacity-10 z-0"></div>
       <Header />
       <section className="hero-section mt-10 container mx-auto md:px-6 md:py-12 py-8 px-4">

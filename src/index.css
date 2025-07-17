@@ -194,6 +194,10 @@ html body{
 }
 @layer components{
 
+  .noisy {
+        @apply absolute inset-0 size-full bg-black bg-[url("/noise.png")];
+    }
+
   .cta-section {
         @apply relative overflow-x-hidden md:h-[600px];
 

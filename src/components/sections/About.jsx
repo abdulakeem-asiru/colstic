@@ -52,7 +52,7 @@ const About = () => {
   return (
     <section
       ref={sectionRef}
-      className="mx-auto container md:px-6 md:py-12 p-8 about-section"
+      className="mx-auto container md:px-6 md:py-12 p-8 about-section bg-[#000] bg-[url('/noise.png')]"
     >
       <h2 className="md:text-5xl text-2xl font-semibold leading-[120%] tracking-[-1px]">
         About Colstic©
