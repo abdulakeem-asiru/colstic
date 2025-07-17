@@ -195,7 +195,7 @@ html body{
 @layer components{
 
   .cta-section {
-        @apply relative overflow-hidden md:h-[600px];
+        @apply relative overflow-x-hidden md:h-[600px];
 
   }
         .left-vector {
