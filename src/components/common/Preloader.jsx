@@ -11,7 +11,8 @@ const Preloader = ({onComplete}) => {
                 if(prev >=100){
                 clearInterval(interval);
                 gsap.to("#preloader", {
-                    opacity : 0,                    
+                    opacity : 0,
+                    display : 'hidden',                    
                 duration: 1,
                 ease: "power1.inOut",
                 onComplete: onComplete,
