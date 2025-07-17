@@ -69,7 +69,7 @@ const Cta = () => {
  
       })
       .from('.right-vector', {
-        scale :0.8,
+        scale : 1,
         ease : 'slow',
         stagger: 0.2,
       duration: 1,
