@@ -14,7 +14,7 @@ const Showcase = () => {
       rotate: 360,
       repeat: -1,
       ease: "linear",
-      duration: 10,
+      duration: 20,
     });
 
     // Hover animation for the button
@@ -24,7 +24,7 @@ const Showcase = () => {
       ease: "power1.out",
     });
 
-  }, []); // <-- Close useGSAP callback and add dependency array
+  }, []); // 
 
   return (
     <>
@@ -69,7 +69,7 @@ const Showcase = () => {
               </svg>
             </div>
 
-            <div className="absolute inset-0 flex items-center justify-center bg-black z-[-100] rounded-full">
+            <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-[#2B2B2B] to-[#101010] z-[-100] rounded-full">
               <svg
                 viewBox="0 0 100 100"
                 className="w-20 h-20 fill-[#ADFF2F] filter drop-shadow([0_0_10px_#ADFF2F])"
