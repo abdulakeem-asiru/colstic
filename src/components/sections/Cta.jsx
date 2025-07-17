@@ -9,6 +9,7 @@ const Cta = () => {
       // Single ref to store all paragraph elements
       const paragraphRef = useRef([]);
       const sectionRef = useRef(null);
+      const ctaSectionRef = useRef(null);
     
       // Callback to collect paragraph elements into paragraphRef
       const setParagraphRef = (element) => {
@@ -29,7 +30,7 @@ const Cta = () => {
 
           gsap.timeline({
             scrollTrigger: {
-              trigger: sectionRef.current,
+              trigger: ctaSectionRef.current,
               start: "top bottom",
               end: "100% 100%",
               toggleActions: "play none none reverse",
@@ -55,7 +56,7 @@ const Cta = () => {
   useGSAP(() => {
     const parallaxTimeline = gsap.timeline({repeat : -1, yoyo : true,
       scrollTrigger: {
-        trigger: sectionRef.current,
+        trigger: ctaSectionRef.current,
        	start: 'top 100%',
 		    end: 'bottom top',   
       }
@@ -77,7 +78,7 @@ const Cta = () => {
   }, []);
 
   return (
- <section className='w-full flex items-center justify-around cta-section' ref={sectionRef}>
+ <section className='w-full flex items-center justify-around cta-section' ref={ctaSectionRef}>
     <div className='left-vector max-md:hidden overflow-x-hidden' >
         <svg width="361" height="172" viewBox="0 0 361 172" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M271 50C294.869 50 317.761 59.4821 334.64 76.3604C351.518 93.2387 361 116.131 361 140C361 163.869 351.518 186.761 334.64 203.64C317.761 220.518 294.869 230 271 230L271 140V50Z" fill="#F4D452"/>
