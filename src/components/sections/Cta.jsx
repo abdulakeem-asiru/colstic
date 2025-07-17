@@ -58,7 +58,6 @@ const Cta = () => {
         trigger: sectionRef.current,
        	start: 'top 100%',
 		    end: 'bottom top',   
-        markers : true 
       }
     });
     parallaxTimeline
