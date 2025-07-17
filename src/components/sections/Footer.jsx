@@ -1,7 +1,6 @@
 export default function Footer() {
   return (
     <footer className="bg-[#101010] text-white px-6 md:px-12 py-16 space-y-16" >
-      {/* CTA Section */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
         <div className="text-xl font-light">
           <p>We would love to hear from you.</p>
