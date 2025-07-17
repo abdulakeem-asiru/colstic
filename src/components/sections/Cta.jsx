@@ -79,7 +79,7 @@ const Cta = () => {
 
   return (
  <section className='w-full flex items-center justify-around cta-section' ref={sectionRef}>
-    <div className='left-vector max-md:hidden overflow-x-hidden' >
+    {/* <div className='left-vector max-md:hidden overflow-x-hidden' >
         <svg width="361" height="172" viewBox="0 0 361 172" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M271 50C294.869 50 317.761 59.4821 334.64 76.3604C351.518 93.2387 361 116.131 361 140C361 163.869 351.518 186.761 334.64 203.64C317.761 220.518 294.869 230 271 230L271 140V50Z" fill="#F4D452"/>
 <path d="M180 50C203.869 50 226.761 59.4821 243.64 76.3604C260.518 93.2387 270 116.131 270 140C270 163.869 260.518 186.761 243.64 203.64C226.761 220.518 203.869 230 180 230L180 140V50Z" fill="#22242F"/>
@@ -103,7 +103,7 @@ const Cta = () => {
 </defs>
 </svg>
 
-    </div>
+    </div> */}
      <div className='container mx-auto px-6 py-12 flex flex-col justify-between items-center gap-15' >
         <Button className='rounded-2xl'>CONTACT ME</Button>
         <h2 className='md:text-5xl text-3xl font-medium leading-[120%] max-w-[600px] text-center'  ref={setParagraphRef}>Let’s start building your branding, <span className='text-[var(--primary-color)]'>today.</span></h2>
