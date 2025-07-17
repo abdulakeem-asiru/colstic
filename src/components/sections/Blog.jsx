@@ -77,7 +77,7 @@ const Blog = () => {
            Latest stories form Colstic and you must to know about stories Colstic    
           </p>
         </div>
-        <ul className='flex max-lg:flex-col justify-between items-center gap-15 md:gap-20 md:mt-10 mt-5 w-full'>
+        <ul className='flex max-lg:flex-col justify-between items-center gap-15 md:gap-8 md:mt-10 mt-5 w-full'>
           {blog.map((item, i) => (
             <li key={i}  className='w-full h-[430px] flex flex-col max-md:mb-10 gap-4 '>
               <img src={item.image} alt="blog-img" className='rounded-ss-3xl w-full aspect-auto object-cover rounded-se-3xl h-[400px]'/>
