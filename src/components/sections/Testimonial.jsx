@@ -27,8 +27,8 @@ const Testimonial = () => {
           gsap.timeline({
             scrollTrigger: {
               trigger: sectionRef.current,
-              start: "top bottom",
-              end: "100% 100%",
+              start: "top 80%",
+              end: "bottom top",
               toggleActions: "play none none reverse",
               scrub: 1,
             },
@@ -41,7 +41,6 @@ const Testimonial = () => {
               from: "start",
             },
             duration: 1.5,
-            delay: index * 0.5,
           });
         }
       });
