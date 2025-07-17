@@ -48,7 +48,7 @@ const Hero = () => {
           duration : 1.5,
           z : -10,
           ease : "back.out"
-        }, )
+        }, "1.2")
 
         gsap.from(".hero-img", {
           scale: 0.1,
