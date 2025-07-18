@@ -71,7 +71,7 @@ const Blog = () => {
       <div className="container mx-auto px-6 py-12 flex flex-col gap-10 justify-center">
         <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-6">
           <h2  ref={setParagraphRef}  className="text-3xl md:text-5xl font-semibold leading-[120%] tracking-[-1px] max-w-[600px]">
-         Latest stories Colstic©
+         Latest stories Equinox©
           </h2>
           <p  ref={setParagraphRef} className="md:text-lg text-sm font-normal max-w-[380px] text-[#EDEDED]">
            Latest stories form Colstic and you must to know about stories Colstic    

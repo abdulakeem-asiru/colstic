@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
         <div className="text-xl font-light">
           <p>We would love to hear from you.</p>
-          <p>Let’s work — together with <span className="font-semibold">Colstic©</span></p>
+          <p>Let’s work — together with <span className="font-semibold">Equinox©</span></p>
         </div>
         <button className="px-6 py-2 border border-white rounded-full hover:bg-white hover:text-black transition">
           contact us

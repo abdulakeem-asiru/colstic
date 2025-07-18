@@ -80,8 +80,8 @@ const containerRef = useRef(null);
      <div className='container mx-auto px-6 py-12 flex max-lg:flex-col max-lg:gap-20 justify-between items-start '>
         <div className='flex flex-col items-center justify-center gap-20' >
             <div>
-            <h2 className='md:text-5xl text-3xl font-semibold leading-[120%] tracking-[-1px] max-w-[500px]'>Featured works from Colstic©</h2>
-            <p className='mt-2'>All featured works from Colstic and you can see more the projects</p>
+            <h2 className='md:text-5xl text-3xl font-semibold leading-[120%] tracking-[-1px] max-w-[500px]'>Featured works from Equinox©</h2>
+            <p className='mt-2'>All featured works from Equinox and you can see more the projects</p>
 
             <Button className="hover:bg-[var(--primary-color)] cursor-pointer p-6 rounded-4xl text-[16px] text-black mt-8 font-medium bg-[var(--primary-color)]">See detail — our works</Button>
             </div>

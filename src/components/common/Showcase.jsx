@@ -83,7 +83,7 @@ const Showcase = () => {
 
       {/* Footer */}
       <div className="text-white text-sm md:text-xl mt-4 flex items-center gap-10 justify-between">
-        <p>Showcase Work Colstics ©</p>
+        <p>Showcase Work Equinox ©</p>
         <p>Showcase Project 2016-2023</p>
       </div>
 
