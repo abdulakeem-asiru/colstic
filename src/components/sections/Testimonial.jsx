@@ -3,6 +3,7 @@ import TestimonialSlider from '../common/TestimonialSlider';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap'
 import SplitText from 'gsap/SplitText';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 
 
 const Testimonial = () => {
@@ -44,11 +45,10 @@ const Testimonial = () => {
           });
         }
       });
+      ScrollTrigger.refresh();
     },
     { scope: sectionRef, dependencies: [] }
   );
-
-
   return (
     <section   ref={sectionRef} className="w-full flex flex-col items-center justify-around text-white bg-gradient-to-b from-[#101010] to-[#2B2B2B] mt-16 mb-0 overflow-x-hidden">
       <div className="container mx-auto px-6 py-12">
