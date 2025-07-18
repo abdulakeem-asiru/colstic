@@ -10,6 +10,15 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 
+export function Hamburger (){
+  return (
+<SideNav Hamburger={<Button className="bg-transparent flex-col flex hamburger-button items-center justify-center gap-2 p-0">
+              <span className="w-15 h-[6px] bg-white rounded-4xl"></span>
+              <span className="w-15 h-[6px] bg-white rounded-4xl"></span>
+            </Button>}/>
+  )
+} 
+
 export function SideNav({ Hamburger }) {
   return (
     <Sheet>

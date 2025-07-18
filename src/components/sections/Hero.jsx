@@ -87,29 +87,41 @@ const Hero = () => {
       <Header />
       <section className="hero-section mt-10 container mx-auto md:px-6 md:py-12 py-8 px-4">
         <div>
-         <p className='md:text-xl text-sm  font-normal sub-heading'>WELCOME TO COLSTIC© — WE ARE BRANDING AGENCY FROM LONDON</p>
-         <h1 className='w-full hero-heading text-3xl md:text-[90px] font-semibold md:leading-[100%] leading-[120%] md:tracking-[-2px] mt-8  '>WE TRANSFROM &nbsp; 
-          
-          <div
-          className="hero-video md:w-[350px] md:h-[70px] w-20 h-8 ml-2 rounded-full overflow-hidden inline-block md:align-middle ring-4 ring-white"
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={ handleMouseLeave}
-        >
-          <video
-            ref={videoRef}
-            src={heroVideo}
-            className="object-cover w-full h-full"
-            muted
-            autoPlay
-            preload="metadata"
-            loop
-            playsInline
-          />
-        </div> <br />IDEAS INTO  <img src={heroImage} alt="Hero img" className='md:inline-block md:w-16 md:h-16 hidden rounded-full ring-6 ring-white hero-img my-auto align-middle' /> THOUGHTS<br className='max-md:hidden'/> AND DIGITAL OUTCOMES</h1>
+         <p className='md:text-xl text-sm  font-normal sub-heading'>WELCOME TO EQUINOX© — WE ARE BRANDING AGENCY FROM NIGERIA</p>
+<h1 className='w-full hero-heading text-3xl md:text-[90px] font-semibold md:leading-[100%] leading-[120%] md:tracking-[-2px] mt-8'>
+  WE REIMAGINE&nbsp;
+
+  <div
+    className="hero-video md:w-[350px] md:h-[70px] w-20 h-8 ml-2 rounded-full overflow-hidden inline-block md:align-middle ring-4 ring-white"
+    onMouseEnter={handleMouseEnter}
+    onMouseLeave={handleMouseLeave}
+  >
+    <video
+      ref={videoRef}
+      src={heroVideo}
+      className="object-cover w-full h-full"
+      muted
+      autoPlay
+      preload="metadata"
+      loop
+      playsInline
+    />
+  </div>
+
+  <br />
+  VISIONS INTO &nbsp;
+  <img
+    src={heroImage}
+    alt="Hero img"
+    className='md:inline-block md:w-14 md:h-14 hidden rounded-full ring-8 mb-4 ring-white hero-img self-center'
+  />&nbsp;
+  INSIGHTS<br className='max-md:hidden' /> AND DIGITAL RESULTS
+</h1>
+
         </div>
         <div className='md:mt-30 my-10 md:mb-15 flex justify-between items-center gap-4 animated-div'>
             <p className='max-w-[500px] paragraph text-sm md:text-xl font-medium leading-[150%]'>Provide the best service and without revision, we are ready to help your business grow more attractive and beauty visuals</p>
-        <img src={spring} alt="spring" className='w-10 h-5' />
+         <img src={spring} alt="spring" className='w-10 h-5' />
         </div>
       </section>
 
