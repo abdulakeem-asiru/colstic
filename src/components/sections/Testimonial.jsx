@@ -30,6 +30,7 @@ const Testimonial = () => {
               trigger: sectionRef.current,
               start: "top 80%",
               end: "bottom top",
+              markers : true,
               toggleActions: "play none none reverse",
               scrub: 1,
             },
