@@ -6,7 +6,7 @@ Welcome to the **Animated Landing Page** built with cutting-edge frontend techno
 
 ## 🚀 Live Demo
 
-> 🌐 [View Live Demo](https://colstic.vercel.app/)  
+> 🌐 [View Live Demo](https://equinox-templte.vercel.app/)  
 
 <br />
 
