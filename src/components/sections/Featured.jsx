@@ -65,7 +65,7 @@ const Featured = () => {
   ];
 
   return (
-    <section className="w-full h-full flex items-center justify-around border-y border-gray-600 text-white my-15">
+    <section id='featured' className="w-full h-full flex items-center justify-around border-y border-gray-600 text-white my-15">
       <div className="container mx-auto px-6 py-12 flex max-lg:flex-col max-lg:gap-20 justify-between items-start">
         <div className="flex flex-col items-center justify-center gap-20">
           <div>

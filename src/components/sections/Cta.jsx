@@ -78,7 +78,7 @@ const Cta = () => {
   }, []);
 
   return (
- <section className='w-full flex items-center justify-around cta-section' ref={ctaSectionRef}>
+ <section id='cta' className='w-full flex items-center justify-around cta-section' ref={ctaSectionRef}>
     <div className='left-vector max-md:hidden overflow-x-hidden' >
         <svg width="361" height="172" viewBox="0 0 361 172" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M271 50C294.869 50 317.761 59.4821 334.64 76.3604C351.518 93.2387 361 116.131 361 140C361 163.869 351.518 186.761 334.64 203.64C317.761 220.518 294.869 230 271 230L271 140V50Z" fill="#F4D452"/>

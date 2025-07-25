@@ -13,10 +13,12 @@ function App() {
   });
 }, []);
 
+
+
 gsap.registerPlugin(ScrollTrigger, SplitText);
   return (
     <>
-      <ReactLenis root />
+      {/* <ReactLenis root /> */}
       {!loadingDone && <Preloader onComplete={() => setLoadingDone(true)} />}
       <Home ready={loadingDone}/>
     </>

@@ -67,7 +67,7 @@ const Blog = () => {
 
 
   return (
-    <section   ref={sectionRef} className="w-full flex flex-col bg-gradient-to-b from-[#2B2B2B] to-[#101010] items-center justify-around text-white mb-4">
+    <section   ref={sectionRef} className="w-full flex flex-col bg-gradient-to-b from-[#2B2B2B] to-[#101010] items-center justify-around text-white mb-4" id='blog'>
       <div className="container mx-auto px-6 py-12 flex flex-col gap-10 justify-center">
         <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-6">
           <h2  ref={setParagraphRef}  className="text-3xl md:text-5xl font-semibold leading-[120%] tracking-[-1px] max-w-[600px]">
